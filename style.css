@@ -1,0 +1,21 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+}
+
+.limit-width {
+  max-width: 680px;
+}
+
+body {
+  font-family: "Nunito";
+}
+
+.profile-picture {
+  height: 96px;
+  width: 96px;
+  border-radius: 50%;
+  object-fit: contain;
+}
